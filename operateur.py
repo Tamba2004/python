@@ -40,3 +40,6 @@ n = 4
 resultat_6 = m // n
 print(resultat_6)
 
+z = 10
+z += 5
+print(z)
