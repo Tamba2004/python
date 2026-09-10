@@ -16,3 +16,15 @@ chaine = "Bonjour,comment ça va ?"
 print(chaine[0])  # Output: B
 print(chaine[8])  # Output: c
 print(chaine[-1])  # Output: ?
+
+my_list_1 = [1, 2, 3, "world", 5]
+my_list_1[1] = "Python"
+my_list_1.append(6)
+my_list_1.remove(3)
+my_list_1.insert(2, "new")
+
+
+
+print(my_list_1) 
+
+print(my_list_1 + my_list)  # Output: [1, 'Python', 'new', 'world', 5, 6, 1, 2, 3, 'hello', 4.5, True]
